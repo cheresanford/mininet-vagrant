@@ -218,7 +218,7 @@ def bufferbloat():
     # debug.  It allows you to run arbitrary commands inside your
     # emulated hosts h1 and h2.
     # CLI(net)
-
+    CLI(net)
     qmon.terminate()
     net.stop()
     # Ensure that all processes you create within Mininet are killed.
